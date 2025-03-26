@@ -1,8 +1,9 @@
 
 .tarjeta{
-    border: solid 3px yellow;
-    width: 50px;
+    border: solid 1px yellow;
+    width: 50px;/* ancho solo se usa en el body*/
     height: 100%;
+    padding: 10px;
 }
 
 body{
@@ -15,6 +16,6 @@ body{
     background-color: rgb(69, 10, 231);
 }
 #container{
-    min-height: 10vh;
+    min-height: 100vh;/*alto del body unidad viemport height, solo utilizado en body*/
     background-color: aliceblue;
 }
