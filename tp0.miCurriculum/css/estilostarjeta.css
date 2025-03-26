@@ -2,5 +2,14 @@
 
 
 body{
-    background-color: #09aa;
+    background-color: #f44;
+}
+.cabecera{
+    background-color: #7040df;
+}
+.data{
+    background-color: rgb(69, 10, 231);
+}
+#container{
+    background-color: aliceblue
 }
