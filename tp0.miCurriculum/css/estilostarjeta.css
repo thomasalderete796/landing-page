@@ -1,14 +1,22 @@
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #f44;
+}
 
 .tarjeta{
     border: solid 1px yellow;
     width: 50px;/* ancho solo se usa en el body*/
     height: 100%;
     padding: 10px;
+    box-sizing: border-box;
 }
 
-body{
-    background-color: #f44;
-}
 .cabecera{
     background-color: #7040df;
 }
