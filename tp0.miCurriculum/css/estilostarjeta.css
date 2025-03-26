@@ -1,4 +1,7 @@
 
+.tarjeta{
+    border: solid 3px white;
+}
 
 
 body{
@@ -11,5 +14,5 @@ body{
     background-color: rgb(69, 10, 231);
 }
 #container{
-    background-color: aliceblue
+    background-color: aliceblue;
 }
