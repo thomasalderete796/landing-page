@@ -1,8 +1,9 @@
 
 .tarjeta{
-    border: solid 3px white;
+    border: solid 3px yellow;
+    width: 50px;
+    height: 100%;
 }
-
 
 body{
     background-color: #f44;
@@ -14,5 +15,6 @@ body{
     background-color: rgb(69, 10, 231);
 }
 #container{
+    min-height: 10vh;
     background-color: aliceblue;
 }
