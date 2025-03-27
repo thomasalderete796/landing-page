@@ -1,5 +1,5 @@
 *{
-    margin: auto;
+    margin: 0;
     padding: 0%;
     box-sizing: border-box;
 }
@@ -11,14 +11,19 @@ body{
 
 .tarjeta{
     border: solid 1px yellow;
-    width: 50px;/* ancho solo se usa en el body*/
-    height: 100%;
+    width: 100px;/* ancho solo se usa en el body*/
+    height: 100%;/*solo se utiliza en body*/
     padding: 10px;
     box-sizing: border-box;
+    color: red; /*hace que el padding no le afect*/
 }
 
 .cabecera{
     background-color: #7040df;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 .data{
     background-color: rgb(69, 10, 231);
