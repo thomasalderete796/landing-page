@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0%;
-    box-sizing: border-box;
+    box-sizing: border-box;/* hace que el padding no afecte al tamaño de la tarjeta*/
 }
 
 body{
-    height: 100vh;
+    height: 100vh;/* alto del body unida viemport height, solo utiliza en body*/
     background-color: #f44;
 }
 
@@ -15,14 +15,16 @@ body{
     height: 100%;/*solo se utiliza en body*/
     padding: 10px;
     box-sizing: border-box;
-    color: red; /*hace que el padding no le afect*/
+    color: red; /*hace que el padding no le afecte el tamaño de la tarjeta*/
+    overflow-y: auto ;/*hace que el contenido que no entra en la tarjeta se puede ver */
+    overflow-x: hidden;/* hace que el contenido que no entra en la tarjeta se puede ver con el scroll*/
 }
 
 .cabecera{
     background-color: #7040df;
     height: 100%;
     width: 100%;
-    color: white;
+    color: white;/* important hace que el color sea prioritario*/
     text-align: center;
 }
 .data{
