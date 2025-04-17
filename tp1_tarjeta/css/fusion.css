@@ -38,6 +38,8 @@ h1.login{
     min-height: 30px;
     width: 100%;
     background-color: brown;
+    display: flex;
+    flex-direction: column;
 }
 
 .actionlogin{
