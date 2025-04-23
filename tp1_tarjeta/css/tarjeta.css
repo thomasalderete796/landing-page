@@ -1,72 +1,70 @@
-*{box-sizing: border-box;
+*{
+    box-sizing: border-box;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
-body{
-    background-color: antiquewhite;
 
-    font-family: 'Times New Roman', Times, serif;
+body{background-color: beige;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;display:grid;
 }
+
 img{
     height: 100%; width: 100%;
-    object-fit: cover; /*hace que la img ocupe todo el contenedor sin deformarse*/
+    object-fit: cover;
 }
+.columna{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
 .producto{
-    width: 300px;
-    height: 120px;
-    background-color: rgb(84, 84, 228);
-    padding:10px;
+    width: 450px;
+    height: 150px;
+    background-color: rgb(31, 197, 211);
+    padding: 10px;
     border-radius: 8px;
     display: flex;
     flex-direction: row;
+    color: rgb(189, 100, 128);
     gap: 10px;
 }
-.producto:nth-child(even){/*even es par*/
-    background-color: blueviolet;
-    color: white;
-}
-
-.producto:nth-child(odd){ /*odd es impar*/
-    background-color: transparent;
-    box-shadow: 0px 0px 10px 5px;
-    color: rgb(105, 102, 102);
-    flex-direction: row-reverse;
-}
-
 .fotoProducto{
-    height: 100%;
     width: 80px;
-    /* flex-basis: 80px;
-    flex-shrink: 0;
-    flex-grow: 0; */
-    flex: 0 0 100px;
+    flex: 0 0 160px;
+    overflow: hidden;
     border-radius: 6px;
     overflow: hidden;
 }
 .datoProducto{
-    
     display: flex;
     flex-direction: column;
+    flex:1 1 60px;
     justify-content: space-between;
-    text-transform: capitalize!important;
+    text-transform: capitalize;
+    background-color: transparent;
 }
-
+.detalleProducto{
+    flex:1 1 60px;
+}
 .valoresProducto{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
 
+}
 .valoracion{
-    color:black;
+    background-color: rgb(244,215,87);
     height: 30px;
-    background-color: rgb(212, 236, 145);
-    flex: 0 0 0;
-    aspect-ratio: 1/1;
+    aspect-ratio: 2/2;
     border-radius: 50%;
     line-height: 30px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif!important
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/*para los pares es even y los elemntos impares es odd*/
+.producto:nth-child(odd){
+    color: rgb(49, 77, 75);
+    flex-direction: row-reverse;
+    background-color: rgb(39, 238, 162);
+}  
